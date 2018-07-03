@@ -1,0 +1,71 @@
+body {
+	min-height: 100vh;
+	min-width: 100vw;
+	overflow-x: hidden;
+	margin: 0;
+}
+
+.room-container {
+	margin: 20px;
+}
+
+
+.room-list {
+	list-style: none;
+	padding: 0px;
+	display: flex;
+	flex-direction: row;
+}
+
+.room-list--item {
+	min-width: 160px;
+	width: 25%;
+	max-width: 200px;
+	height: 160px;
+	display: inline-block;
+	background-color: #dbdbe3;
+	margin: 0px 5px;
+	border: 6px solid #cbcfdb;
+	border-radius: 4px;
+	padding: 10px;
+	font-family: sans-serif;
+}
+
+.room-list--item.active {
+	background-color: #e7e7e7;
+	border-color: #e0e0e0;
+}
+
+.room-list--item .title-container {
+	margin: 5px 0px 20px 0px;
+}
+
+.guest-selection label {
+	display: block;
+}
+
+.guest-selection select {
+	margin-top: 10px;
+	width: 50px;
+}
+
+.adult-selection,
+.child-selection {
+	display: inline-block;
+	width: 50%;
+	margin: auto;
+}
+
+.submit-form__container {
+	width: 100%;
+}
+
+.submit-form__button {
+	background-color: #c0c0c0;
+	padding: 10px;
+	margin-left: 5px;
+	border-right: 2px solid black;
+	border-bottom: 1px solid black;
+	font-family: sans-serif;
+	font-size: 14px;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "hilton-assessment",
+  "version": "1.0.0",
+  "description": "hilton hotel preview application",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/davidkleriga/hilton-assessment.git"
+  },
+  "keywords": [
+    "hilton",
+    "hotel",
+    "assessment"
+  ],
+  "author": "dk <dkleriga@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/davidkleriga/hilton-assessment/issues"
+  },
+  "homepage": "https://github.com/davidkleriga/hilton-assessment#readme",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.6.2",
+    "react-dom": "^16.4.1",
+    "react-scripts": "^1.1.4"
+  }
+}
